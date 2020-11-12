@@ -1,0 +1,36 @@
+
+.details {
+  &-container {
+    margin: 1.5rem 0;
+    padding-bottom: 5rem;
+  }
+
+  &-header {
+    color: #827e7e;
+    span {
+      font-size: 0.8rem;
+      color: #827e7e;
+      font-weight: lighter;
+      margin: 1rem 0;
+    }
+  }
+
+  &-target-container {
+    margin: 1.5rem 0;
+
+    h3, h4 {
+      margin: 0;
+    }
+    h4 {
+      color: #827e7e;
+    }
+  }
+
+  &-target-buttons {
+    display: flex;
+    justify-content: space-between;
+    &-black {
+      border-radius: 40%;
+    }
+  }
+}

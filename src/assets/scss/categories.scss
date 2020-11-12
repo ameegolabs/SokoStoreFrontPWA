@@ -1,0 +1,35 @@
+.categories {
+  &-container {
+    margin: 2rem 0;
+
+    h1 {
+      font-size: 0.8rem;
+      color: #827e7e;
+      font-weight: lighter;
+      margin: 1rem 0;
+    }
+  }
+
+  &-items {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &-item {
+    width: 30%;
+    position: relative;
+    &-img {
+      img {
+        width: 100%;
+        border-radius: 3px;
+        height: 10rem;
+      }
+    }
+    &-text {
+      position: absolute;
+      bottom: 0.5rem;
+      left: 0.5rem;
+      color: white;
+    }
+  }
+}

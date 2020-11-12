@@ -1,0 +1,29 @@
+.app {
+  width: 100%;
+  margin: 0 auto;
+  max-width: 768px;
+}
+
+.layout-container {
+  width: 92%;
+  margin: 0 auto;
+}
+
+.category-slider {
+  height: 10px;
+  display: flex;
+  margin: 1rem 0;
+  justify-content: center;
+}
+
+.category-slider-circle {
+  width: 8px;
+  height: 8px;
+  margin: 0.1rem ;
+  background-color: #a5a2a2;
+  border-radius: 50%;
+
+  &-selected {
+    background-color: #2666cc;
+  }
+}

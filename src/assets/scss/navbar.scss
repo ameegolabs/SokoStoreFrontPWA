@@ -1,0 +1,51 @@
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-evenly;
+  text-align: center;
+  align-content: center;
+  background-color: #FFF;
+
+  &-container {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+  }
+
+  &-item {
+    width: 25%;
+    border-top: 2px solid #827e7e;
+    padding: 0.6rem;
+
+    &-selected {
+      border-top: 2px solid #2666cc;
+    }
+    &-icon {
+      i {
+        color: #827e7e;
+        font-size: 1.4rem !important;
+      }
+
+      &-selected {
+       i {
+         color: #2666cc;
+       }
+      }
+    }
+    &-text {
+      span {
+        font-size: 1rem;
+        color: #827e7e;
+      }
+
+      &-selected {
+        span {
+          color: #2666cc;
+        }
+      }
+    }
+  }
+}
+
+

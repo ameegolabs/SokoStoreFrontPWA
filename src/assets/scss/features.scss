@@ -1,0 +1,33 @@
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  justify-content: space-between;
+  text-align: center;
+  align-content: center;
+  background-color: #2666cc;
+  height: 12rem;
+
+  &-container {
+    width: 100%;
+  }
+
+  &-item {
+    width: 25%;
+    padding: 0.6rem;
+
+    &-icon {
+      i {
+        color: yellow;
+        font-size: 2.5rem !important;
+      }
+    }
+    &-text {
+      span {
+        color: #FFF;
+      }
+    }
+  }
+}
+
+
